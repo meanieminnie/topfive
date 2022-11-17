@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    html {
+        max-width: 70ch;
+        /* larger spacing on larger screens, very small spacing on tiny screens */
+        padding: calc(1vmin + .5rem);
+        /* shorthand for margin-left/margin-right */
+        margin-inline: auto;
+        /* fluid sizing: https://frontaid.io/blog/fluid-typography-2d-css-locks-clamp/ */
+        font-size: clamp(1em, 0.909em + 0.45vmin, 1.25em);
+        /* use system font stack: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
+        font-family: system-ui
+      }
+       
+      /* increase line-height for everything except headings */
+      body :not(:is(h1,h2,h3,h4,h5,h6)) {
+        line-height: 1.75;
+      }
+      </style>
+</head>
+<body>
+    <h1>my top five</h1>
+    <h2>By Mrinalinini, 10 November 2022</h2>
+    <img src="pexels-broken-9895239.jpg" alt="Feature Image">
+    <p>In 1980, the five most commonly spoken languages other than English were Spanish, Italian, German, French, and Polish. By 2010, Spanish was still the most widely spoken language after English but it was followed by Chinese, French, Tagalog, and Vietnamese.</p>
+    <p> TOP FIVE LANGUAGES IN 2010</p>
+    <ol>
+        <li>Spanish</li>
+        <li>Chinese</li> 
+        <li>French</li>   
+        <li>Tagalog</li>
+        <li>Vietnamese</li>
+     
+    </ol> 
+    <a href="https://www.census.gov/dataviz/visualizations/045/">this links to census.gov</a>
+</body>
+</html>
